@@ -3,7 +3,7 @@ import streamlit as st
 
 # Initialize the ChatOllama model with the correct base URL
 # Replace "http://localhost:11434" with the correct URL if the server is hosted elsewhere
-llm = ChatOllama(model="llama3.1", base_url="http://localhost:11434")
+llm = ChatOllama(model="llama3.1", base_url="https://your-public-ollama-server")
 
 # Streamlit app
 st.title("Chatbot")
